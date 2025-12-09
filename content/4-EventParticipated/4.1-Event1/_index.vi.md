@@ -163,7 +163,11 @@ Tham dự **“AWS Cloud, AI & Innovation Summit”** mang lại góc nhìn toà
 #### Một số hình ảnh sự kiện
 
 
-
+<p align="center">
+  <img src="/images/4-EventParticipated/event_1/photo1.jpg" alt="Picture 1" />
+  <br/>
+  <strong style="font-size: 18px;">Hình 1</strong>
+</p>
 <p align="center">
   <img src="/images/4-EventParticipated/event_1/photo2.jpg" alt="Picture 2" />
   <br/>
