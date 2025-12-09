@@ -1,5 +1,5 @@
-baseURL = "https://github.com/ttjendatgit/trantiendat/"
-relativeURLs = true
+baseURL = "https://ttjendatgit.github.io/trantiendat/"
+
 canonifyURLs = true
 
 # Change the default theme to be use when building the site with Hugo
