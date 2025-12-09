@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
+   <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        }
+      };
+    </script>
+
+    <!-- Load MathJax -->
+    <script async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    {{ partial "custom-header.html" . }}
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

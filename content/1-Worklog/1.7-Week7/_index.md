@@ -1,57 +1,43 @@
 ---
 title: "Week 7 Worklog"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-10-24"
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 7 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Focus on reviewing the 4 main pillars of AWS Well-Architected Framework
+* Master key AWS services for the exam
+* Practice labs on security and performance
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks to be implemented this week:
+| Day | Tasks | Start Date | End Date | Reference Materials |
+| --- | ----- | ---------- | -------- | ------------------- |
+| Mon | **Secure Architecture Design**<br>- IAM: Users, Groups, Roles, Policies<br>- MFA and authentication methods<br>- Service Control Policies (SCPs) for Organizations<br>- Encryption: KMS (CMKs, Data Keys), TLS/ACM<br>- Review Security Groups vs NACLs<br>- AWS Shield & WAF | 20/10/2025 | 20/10/2025 |  |
+| Tue | **Continue Secure Architectures**<br>- Amazon GuardDuty: Threat detection<br>- AWS Secrets Manager<br>- VPC Security: Flow Logs, Endpoints<br>- Data encryption at rest & in transit<br>- **Practice:**<br>&emsp; + Create complex IAM Policies<br>&emsp; + Configure KMS with CMK<br>&emsp; + Set up WAF rules | 21/10/2025 | 21/10/2025 |  |
+| Wed | **Resilient Architecture Design**<br>- Multi-AZ deployments: RDS, EC2, ELB<br>- Multi-Region strategies<br>- Disaster Recovery: Backup & Restore, Pilot Light, Warm Standby<br>- Auto Scaling: Policies, Lifecycle Hooks<br>- Route 53: Routing Policies, Health Checks | 22/10/2025 | 22/10/2025 |  |
+| Thu | **Continue Resilient Architectures**<br>- Load Balancing: ALB, NLB, GLB<br>- Database resilience: RDS Multi-AZ, Aurora Global Database<br>- Storage resilience: S3 Cross-Region Replication<br>- **Practice:**<br>&emsp; + Configure Auto Scaling group<br>&emsp; + Set up Multi-AZ RDS<br>&emsp; + Create Route 53 failover | 23/10/2025 | 23/10/2025 |  |
+| Fri | **High-Performing Architecture Design**<br>- Compute scaling: EC2 Auto Scaling, Lambda, Fargate<br>- Storage: S3 performance, EFS, EBS types<br>- Caching: ElastiCache (Redis/Memcached)<br>- Network Optimization: CloudFront, Global Accelerator | 24/10/2025 | 24/10/2025 |  |
 
 
 ### Week 7 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Mastered Secure Architectures:**
+  * Deep understanding of IAM: Policies, Roles, Permission Boundaries
+  * Proficiency with KMS: CMK, Data Keys, Key Policies
+  * Differentiated Security Groups vs NACLs
+  * Know how to implement WAF and Shield
 
-* Successfully created and configured an AWS Free Tier account.
+* **Proficient in Resilient Architectures:**
+  * Designed Multi-AZ and Multi-Region architectures
+  * Understand Disaster Recovery strategies
+  * Configured Auto Scaling and Load Balancing
+  * Used Route 53 for failover
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Successful Practice:**
+  * Created complex IAM policies
+  * Configured KMS encryption
+  * Set up Auto Scaling groups
+  * Deployed Multi-AZ databases

@@ -1,59 +1,33 @@
 ---
 title: "Worklog Tuần 8"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-10-31"
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thành ôn tập tất cả các chủ đề thi
+* Luyện đề thi thử
+* Chuẩn bị tâm lý và kỹ năng làm bài thi
+
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | **Tiếp tục High-Performing Architectures**<br>- Database performance: RDS Read Replicas, Aurora<br>- Lambda optimization: Memory, Concurrency, Cold Start<br>- **Thực hành:**<br>&emsp; + Cấu hình CloudFront distribution<br>&emsp; + Tạo ElastiCache cluster<br>&emsp; + Optimize Lambda functions | 27/10/2025 | 27/10/2025 |  |
+| 3 | **Thiết kế tối ưu chi phí (Cost-Optimized Architectures)**<br>- Cost Explorer và Budgets<br>- Savings Plans vs Reserved Instances<br>- Lifecycle Policies: S3, EBS<br>- NAT Gateway optimization<br>- Storage Tiering: S3, Glacier<br>- Right-sizing instances | 28/10/2025 | 28/10/2025 |  |
+| 4 | **Ôn tập AWS Well-Architected Framework**<br>- 6 Pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, Sustainability<br>- Review các dịch vụ trọng tâm:<br>&emsp; + EC2: Instance types, AMIs, Placement Groups<br>&emsp; + S3: Classes, Features, Versioning<br>&emsp; + RDS: Engines, Features, Backups | 29/10/2025 | 29/10/2025 |  |
+| 5 | **Luyện đề và Review**<br>- Làm 2 đề thi thử đầy đủ<br>- Phân tích lỗi sai<br>- Review các chủ đề còn yếu:<br>&emsp; + VPC networking advanced<br>&emsp; + Database migration strategies<br>&emsp; + Monitoring với CloudWatch<br>- Chuẩn bị tài liệu cho ngày thi | 30/10/2025 | 30/10/2025 |  |
+| 6 | **NGÀY THI - 31/10/2025**<br>- **Thi**<br>- Review nhanh trước khi thi<br>- Kiểm tra thiết bị và kết nối<br>- Quản lý thời gian làm bài<br>- Hoàn thành bài thi<br>- Chờ kết quả | 31/10/2025 | 31/10/2025 |  |
 
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+* **Hoàn thiện kiến thức thi:**
+  * Nắm vững 6 Pillars của Well-Architected Framework
+  * Hiểu sâu Cost Optimization strategies
+  * Thành thạo Performance Optimization techniques
+  * Review tất cả dịch vụ trọng tâm
 

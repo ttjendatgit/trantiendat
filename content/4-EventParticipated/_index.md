@@ -1,44 +1,44 @@
 ---
 title: "Events Participated"
-date: "`r Sys.Date()`"
+date: 2025-09-11
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
+During my internship, I had the opportunity to participate in four professional events. Each event provided meaningful insights, practical knowledge, and valuable experiences that contributed to my academic and professional development.
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+### [Event 1](4.1-Event1/)
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+ **Event Name:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+ **Date & Time:** 09:00, September 18, 2025
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+ **Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+ **Role:** Attendee
 
-&emsp;**Role:** Attendee  
+ **Main activities:**
+ Engaged in discussions centered on technology transformation in the Industry 4.0 era, with a particular emphasis on the expanding role of artificial intelligence in accelerating digital innovation and organizational productivity.
 
----
+ **Lesson learned:**
+ Integrating AI-Driven Lifecycle (AI-DLC) methodologies into project execution enhances efficiency and decision-making. Additionally, Generative AI serves as an effective tool for research, knowledge acquisition, and continuous skill development.
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+### [Event 2](4.2-Event2/)
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+ **Event Name:** AWS Cloud Mastery Series #2 – DevOps on AWS
 
-&emsp;**Role:** Attendee  
+ **Date & Time:** 8:30, November 17, 2025
+
+ **Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+ **Role:** Attendee
+
+ **Main activities:**
+ Learned foundational and advanced concepts in DevOps, including CI/CD automation, Infrastructure as Code (IaC) through CloudFormation and the AWS CDK, containerization with ECS, EKS, and App Runner, and observability practices enabled by CloudWatch.
+
+ **Lesson learned:**
+ Modern DevOps practices prioritize collaboration, continuous improvement, and reliable infrastructure orchestration. Applying IaC and AWS container services results in reproducible, scalable, and resilient systems, while enhanced observability supports proactive monitoring and operational excellence.
+
+

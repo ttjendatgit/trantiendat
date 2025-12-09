@@ -1,59 +1,32 @@
 ---
 title: "Worklog Tuần 5"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-09-09"
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thành việc tìm hiểu các nội dung còn lại về kiến trúc mạng AWS trên trang tài liệu.
+* Dịch và nắm vững nội dung 2 bài blog kỹ thuật.
+
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | **Vắng mặt (Lý do sức khỏe):** <br> - Bị sốt nặng, không đảm bảo sức khỏe. <br> - Ba mẹ đón về quê để nghỉ ngơi và chăm sóc.                                                                                                                                                              | 06/10/2025 | 06/10/2025 |
+| 3   |**Vắng mặt (Lý do sức khỏe):** | 07/10/2025 | 07/10/2025      | 
+| 4   | **Vắng mặt (Lý do sức khỏe):** | 07/10/2025 | 07/10/2025      | 
+| 5   |  **Hoàn thành nhiệm vụ dịch thuật:** <br> - Quay lại thành phố và làm việc trở lại. <br> - Dịch bài blog: **"Gain Compliance Insights into Your AWS Environment with Amazon Q Business"**, **"Four ways to grant cross-account access in AWS"**.| 09/10/2025 | 09/10/2025      |
+| 6   | Hoàn thành việc tất cả các mục nội dung còn lại VPC                    | 10/10/2025 | 10/10/2025      | <https://000003.awsstudygroup.com/vi/> |
 
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Hoàn thành dịch thuật:** Đã dịch chính xác và đầy đủ 2 bài blog kỹ thuật quan trọng từ tiếng Anh sang tiếng Việt:
+    * **"Gain Compliance Insights into Your AWS Environment with Amazon Q Business"**: Hiểu rõ cách tích hợp AWS Config và Amazon Q Business để phân tích tuân thủ bằng ngôn ngữ tự nhiên.
+    * **"Four ways to grant cross-account access in AWS"**: Nắm vững 4 phương pháp cấp quyền truy cập liên tài khoản và các đánh đổi về bảo mật, khả năng sẵn sàng của từng phương pháp.
+* **Hoàn thành chương trình học về kiến trúc mạng AWS:** Đã nghiên cứu toàn bộ nội dung còn lại trên trang tài liệu, bao gồm các chủ đề nâng cao về VPC, kết nối hybrid, và các mẫu kiến trúc best-practice.

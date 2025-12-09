@@ -1,125 +1,179 @@
 ---
-title: "Event 1"
-date: "`r Sys.Date()`"
+title: "AWS CLOUD DAY"
+date: "2025-09-19"
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch “AWS Cloud, AI & Innovation Summit”
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Mục Tiêu Sự Kiện
 
-### Mục Đích Của Sự Kiện
+* Giới thiệu chiến lược quốc gia của Việt Nam về phát triển điện toán đám mây và chuyển đổi số
+* Tăng cường hợp tác công nghệ và đổi mới sáng tạo giữa Hoa Kỳ – Việt Nam
+* Chia sẻ góc nhìn về AI, blockchain, và phát triển hệ sinh thái định hình tương lai Việt Nam
+* Nêu bật các chương trình của AWS trong phát triển nhân lực, mở rộng khả năng tiếp cận cloud và sáng kiến AI có trách nhiệm
+* Cung cấp kiến thức kỹ thuật thực hành về phát triển ứng dụng dùng AI và bảo mật AI
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+### Diễn Giả
 
-### Danh Sách Diễn Giả
+* **Đại diện Chính phủ Việt Nam**
+* **Đại sứ Hoa Kỳ tại Việt Nam**
+* **Eric Elock** – CEO phụ trách Việt Nam, Lào, Campuchia & Myanmar
+* **Chloe Phung** – CEO, U2U
+* **Erik** – Lãnh đạo AWS
+* **Jaime Valless** – Lãnh đạo AWS
+* **Chuyên gia kỹ thuật AWS** – Dẫn dắt các phiên chuyên sâu buổi chiều
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+### Những Điểm Nổi Bật
 
-### Nội Dung Nổi Bật
+#### Chiến lược quốc gia về hạ tầng cloud và chuyển đổi số
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+* Chính phủ nhấn mạnh việc mở rộng dịch vụ cloud và hệ thống số làm nền tảng cho Công nghiệp 4.0
+* Đảm bảo **an ninh, an toàn và bảo vệ thông tin** trên các hệ sinh thái số quốc gia
+* Khuyến khích hợp tác mở giữa cơ quan nhà nước, doanh nghiệp tư nhân và nhà đầu tư quốc tế
+* Định vị công nghệ cloud như động lực thúc đẩy phát triển kinh tế và hiện đại hóa
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### Quan hệ Hoa Kỳ – Việt Nam và phát triển công nghệ
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+* Đại sứ Hoa Kỳ nhìn lại ba thập kỷ hợp tác giữa hai quốc gia
+* Các doanh nghiệp công nghệ như AWS đóng vai trò đối tác chủ lực thúc đẩy đồng phát triển
+* Tập trung vào tăng trưởng kinh tế chung và hợp tác bền vững lâu dài
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### Đổi mới qua hiện đại hóa ngân hàng & hệ sinh thái blockchain – Eric Elock
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+* Ngành ngân hàng tiếp tục giữ vai trò chính trong thúc đẩy hiện đại hóa CNTT
+* U2U đang xây dựng hệ sinh thái blockchain hỗ trợ tương tác liền mạch giữa doanh nghiệp và người dùng
+* Nhấn mạnh sự kết hợp giữa cloud và blockchain đang định hình mô hình kinh tế số mới
 
-#### Domain-Driven Design (DDD)
+#### AI định hình tương lai Việt Nam – Chloe Phung
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+* Những khái niệm từng bị xem là “không thể” với U2U cách đây hai năm nay đã trở thành hiện thực
+* Việt Nam không chỉ bắt kịp xu hướng AI toàn cầu mà còn đang **định hình kỷ nguyên AI**
 
-#### Event-Driven Architecture
+##### Tác động thực tế của AI tại Việt Nam
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+* **Giáo dục:**
 
-#### Compute Evolution
+  * 60% học sinh, sinh viên Việt Nam sử dụng công cụ học tập EdTech
+  * AI cải thiện khả năng tiếp cận, giảm rào cản ngôn ngữ và tăng mức độ tương tác
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+* **Kinh tế:**
 
-#### Amazon Q Developer
+  * Hơn **765 startup AI**, đưa Việt Nam đứng thứ 2 ASEAN
+  * AI dự kiến đóng góp **120–130 tỷ USD** vào GDP
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+* **Tác động xã hội:**
 
-### Những Gì Học Được
+  * Các bệnh viện ứng dụng AI giảm thời gian xử lý bệnh nhân còn **5 phút**
+  * AI hỗ trợ tối ưu giao thông, giám sát năng lượng, và bảo vệ bờ biển
 
-#### Tư Duy Thiết Kế
+##### Ví dụ công nghệ
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+* **Nubila** – Dự báo thời tiết dựa trên AI
+* **Staex** – Triển khai thành công **1.000+ thiết bị IoT** tại châu Á và châu Âu
 
-#### Kiến Trúc Kỹ Thuật
+##### Sự kết hợp giữa AI & blockchain
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+* Generative AI rút ngắn chu kỳ phát triển từ vài tuần xuống còn **vài giờ hoặc vài ngày**
+* Blockchain trở nên dễ tiếp cận hơn cho cả người mới khi kết hợp với AI
+* AI cải thiện ra quyết định cho doanh nghiệp và nhà hoạch định chính sách
+* Ghi nhận vai trò của AWS trong việc hỗ trợ hệ sinh thái công nghệ này
 
-#### Chiến Lược Hiện Đại Hóa
+#### Các sáng kiến của AWS tại Việt Nam – Erik
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+* AWS đã đào tạo **hơn 100.000 chuyên gia cloud** tại Việt Nam
+* Tiếp tục mở rộng khả năng tiếp cận dịch vụ cloud trên toàn quốc
+* Ra mắt **chương trình FJC kéo dài 6 tháng**, mang đến lộ trình nghề nghiệp trong lĩnh vực công nghệ
+* Nhấn mạnh giá trị văn hóa vững mạnh của AWS như một lợi thế cốt lõi
+
+#### Khi văn hóa gặp gỡ đổi mới – Jaime Valless
+
+* Nhân loại đang bước vào thời đại trọng yếu nơi AI sẽ định hình lại mọi ngành
+* Chuyển đổi AI không chỉ cần công nghệ mà còn cần **kỹ năng, con người, văn hóa và trách nhiệm**
+* Khuyến khích học tập liên tục và sử dụng AI một cách đạo đức
+* AWS hỗ trợ triển khai AI an toàn với khả năng truy cập đa mô hình và nhiều lớp bảo vệ
+
+##### Ví dụ sử dụng thực tế
+
+* **Nearmap**: Sử dụng mô hình AI để tăng tốc ra quyết định bằng cách tự động hóa các tác vụ lặp lại, giúp con người tập trung vào sáng tạo và chiến lược
+
+### Những Điểm Rút Ra
+
+#### Tư Duy Thiết Kế (Design Mindset)
+
+* Cloud, AI và blockchain cùng nhau mở ra các cơ hội đổi mới lớn
+* Hợp tác giữa chính phủ, doanh nghiệp và đối tác quốc tế thúc đẩy tiến bộ số nhanh chóng
+* Triển khai AI phải đặt ưu tiên trách nhiệm, an ninh và sự giám sát của con người
+
+#### Kiến Trúc Kỹ Thuật (Technical Architecture)
+
+* AI tăng tốc phát triển phần mềm thông qua tự động hóa coding, testing và tối ưu hóa
+* Các bài toán IoT và mô hình thời tiết cho thấy khả năng mở rộng AI đa ngành
+* Generative AI giảm rào cản khi tiếp cận công nghệ phức tạp như blockchain
+
+#### Chiến Lược Hiện Đại Hóa (Modernization Strategy)
+
+* Ứng dụng cloud + AI + blockchain để tạo nên chuyển đổi có tác động
+* Đầu tư vào đào tạo kỹ năng số liên tục
+* Duy trì AI có trách nhiệm: kiểm soát truy cập, bảo mật prompt, giảm thiểu hallucination, bảo vệ dữ liệu
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+* Áp dụng quy trình phát triển tập trung AI với công cụ AWS
+* Tích hợp nguyên tắc AI có trách nhiệm: theo dõi người dùng, human-in-the-loop, bảo mật prompt, xác thực dữ liệu
+* Xem xét kiến trúc RAG để đảm bảo AI doanh nghiệp chính xác và an toàn
+* Thử nghiệm các dịch vụ như Amazon Q và QuickSight để prototype nhanh và xây dashboard trực quan
 
-### Trải nghiệm trong event
+### Trải Nghiệm Sự Kiện
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham dự **“AWS Cloud, AI & Innovation Summit”** mang lại góc nhìn toàn diện về cách cloud, AI và blockchain đang thúc đẩy chuyển đổi số tại Việt Nam.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Học hỏi từ các lãnh đạo ngành
+
+* Lãnh đạo chính phủ, đại diện quốc tế và lãnh đạo AWS chia sẻ tầm nhìn chiến lược
+* Các ví dụ thực tế minh họa tác động của AI lên giáo dục, tăng trưởng kinh tế và dịch vụ công
 
 #### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+* Các phiên buổi chiều bao gồm **AWS SageMaker**, **AI-driven SDLC**, và **bảo mật ứng dụng AI**
+* Trình diễn toàn bộ quy trình phát triển phần mềm có hỗ trợ AI:
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+  * **Khởi tạo (Inception)**: tạo ý tưởng, thu thập yêu cầu
+  * **Xây dựng (Construction)**: mô hình hóa, sinh code, testing, triển khai IaC
+  * **Vận hành (Operation)**: triển khai sản phẩm và xử lý sự cố
+
+#### Thực hành bảo mật cho ứng dụng AI
+
+* Thảo luận các rủi ro như hallucination, nhiễm độc dữ liệu, lỗ hổng prompt, và kiểm soát truy cập
+* Cung cấp mô hình kiến trúc an toàn cho triển khai AI, bảo vệ chuỗi cung ứng, sử dụng RAG, và giám sát người dùng
+
+#### Tận dụng công cụ AWS
+
+* Amazon Q và QuickSight giúp xây dashboard và tự động hóa workflow nhanh chóng
+* AI hỗ trợ coding, viết tài liệu, refactor và nhiều hơn nữa—tăng năng suất nhưng vẫn giữ sự giám sát của con người
 
 #### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+* AI và cloud mang lại hiệu suất và đổi mới trên nhiều lĩnh vực
+* An ninh vững chắc, thực hành có trách nhiệm và sự giám sát của con người là không thể thiếu
+* Việt Nam đang có đà phát triển mạnh mẽ trong ứng dụng AI và chuyển đổi số
+
+#### Một số hình ảnh sự kiện
+
+
+
+<p align="center">
+  <img src="/images/4-EventParticipated/event_1/photo2.jpg" alt="Picture 2" />
+  <br/>
+  <strong style="font-size: 18px;">Hình 2</strong>
+</p>
+
+<p align="center">
+  <img src="/images/4-EventParticipated/event_1/photo3.jpg" alt="Picture 3" />
+  <br/>
+  <strong style="font-size: 18px;">Hình 3</strong>
+</p>
+
+> Tóm lại, sự kiện mang đến góc nhìn chiến lược, chiều sâu kỹ thuật và các ví dụ thực tế cho thấy AI, cloud và blockchain đang định hình tương lai số của Việt Nam.

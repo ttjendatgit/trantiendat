@@ -1,59 +1,54 @@
 ---
 title: "Worklog Tuần 2"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-09-19"
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 2:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu sâu hơn về các dịch vụ mạng của AWS
+* Học và thực hành VPC, Subnets, Route Tables và các tính năng bảo mật
+* Tham dự AWS Cloud Day Vietnam để tiếp thu kiến thức từ ngành
+* Tiếp tục lập kế hoạch dự án với nhóm
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ----- | ---------- | -------- | ------------------- |
+| 2 | - Học Module 02-01: AWS Virtual Private Cloud (VPC)<br>- Học Module 02-02: VPC Security và Multi-VPC Features<br>- Học Module 02-03: VPN, DirectConnect, Load Balancing concepts<br>- **Thực hành:** Module 02-Lab03-01: Start with Amazon VPC and AWS<br>- AWS Study Group: Module 02-Lab03-01.1 - Subnets<br>- AWS Study Group: Module 02-Lab03-01.2 - Route Tables<br>- Họp nhóm bàn về kiến trúc dự án | 15/09/2025 | 15/09/2025 | |
+| 3 | - Ôn tập khái niệm VPC: CIDR blocks, Internet Gateway, NAT Gateway<br>- Học về VPC Peering và VPC Endpoints<br>- Tìm hiểu Network Access Control Lists (NACLs) và Security Groups<br>- **Thực hành:**<br>&emsp; + Tạo VPC tùy chỉnh với public và private subnets<br>&emsp; + Cấu hình route tables cho các subnets khác nhau<br>&emsp; + Thiết lập Security Groups cho web servers và databases<br>- Họp nhóm: Hoàn thiện yêu cầu dự án và timeline | 16/09/2025 | 16/09/2025 | |
+| 4 | - Chuẩn bị cho AWS Cloud Day Vietnam<br>- Ôn tập các câu hỏi và chủ đề chính cho sự kiện<br>- Học best practices về networking của AWS<br>- **Thực hành:**<br>&emsp; + Triển khai VPC Flow Logs để giám sát<br>&emsp; + Cấu hình VPC Peering giữa hai VPC<br>&emsp; + Kiểm tra kết nối giữa các VPC đã peered<br>- Cập nhật tài liệu dự án | 17/09/2025 | 17/09/2025 | |
+| 5 | - **Tham dự AWS Cloud Day Vietnam**<br>&emsp; + Tham dự các phiên keynote về xu hướng điện toán đám mây<br>&emsp; + Tham gia các workshop về networking<br>&emsp; + Tìm hiểu về các dịch vụ và tính năng mới của AWS<br>&emsp; + Kết nối với các chuyên gia AWS và người tham dự khác<br>- Ghi chép lại những điều quan trọng học được từ sự kiện<br>- Chia sẻ insights với các thành viên trong nhóm | 18/09/2025 | 18/09/2025 | Tài liệu sự kiện AWS Cloud Day Vietnam |
+| 6 | - Áp dụng những gì học được từ Cloud Day vào dự án<br>- Học Module 02-04: Cấu hình VPC nâng cao<br>- Tìm hiểu về Transit Gateway và AWS PrivateLink<br>- **Thực hành:**<br>&emsp; + Triển khai Load Balancer trong VPC<br>&emsp; + Cấu hình Auto Scaling với VPC<br>&emsp; + Thiết lập kết nối VPN đến on-premise (mô phỏng)<br>- Họp nhóm: Cập nhật dự án dựa trên insights từ Cloud Day | 19/09/2025 | 19/09/2025 | |
 
 ### Kết quả đạt được tuần 2:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Nắm vững Kiến thức Cơ bản về VPC:**
+  * Đã tạo và cấu hình thành công các VPC tùy chỉnh
+  * Triển khai kiến trúc public và private subnet
+  * Cấu hình route tables để định tuyến traffic đúng cách
+  * Thiết lập Internet Gateway và NAT Gateway để truy cập internet
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Nâng cao Kiến thức về Bảo mật:**
+  * Cấu hình Security Groups cho bảo mật cấp instance
+  * Triển khai Network ACLs cho bảo mật cấp subnet
+  * Hiểu được sự khác biệt giữa firewall stateful và stateless
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Tham gia AWS Cloud Day Vietnam:**
+  * Tiếp thu insights về lộ trình và tính năng mới của AWS
+  * Học best practices từ các chuyên gia AWS
+  * Kết nối với các chuyên gia điện toán đám mây và đồng nghiệp
+  * Tham gia các workshop thực hành về networking nâng cao
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* **Triển khai Thực tế:**
+  * Tạo kết nối VPC Peering giữa nhiều VPC
+  * Cấu hình VPC Flow Logs để giám sát lưu lượng mạng
+  * Triển khai Elastic Load Balancing trong môi trường VPC
+  * Thiết lập cấu hình VPN cơ bản (môi trường mô phỏng)
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* **Tiến độ Dự án:**
+  * Hoàn thiện thiết kế kiến trúc dự án
+  * Tạo sơ đồ mạng chi tiết bằng draw.io với icons AWS
+  * Xác định rõ vai trò và trách nhiệm trong nhóm
+  

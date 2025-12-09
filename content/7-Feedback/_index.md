@@ -1,47 +1,52 @@
 ---
 title: "Sharing and Feedback"
-date: "`r Sys.Date()`"
+date: "2025-09-09"
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+
 
 > Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
 
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment is very friendly and open. FCJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+I was truly surprised and impressed by the professionalism here, from the workspace, location, to the office layout—everything was excellent and a completely new experience for me. During the internship, I had the opportunity to interact with the members of FCJ, who were always enthusiastic, ready to support, and answer any questions, even outside of working hours.
 
 **2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+Whenever I encountered difficulties, the support from mentors and the team admin was always enthusiastic and thorough. They didn't guide me step-by-step from A to Z, but instead offered suggestions like "try doing A this way" or "consider solving it with approach C." This method helped me gain a deeper understanding of the problems and develop my problem-solving skills.
 
 **3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+DevOps was a completely new field for me, and initially, I felt quite overwhelmed, unsure of where to start. However, through learning and hands-on practice, I was able to connect my foundational knowledge with real-world tasks, and I gained valuable experience in a professional working environment.
 
 **4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+Learning and development opportunities at FCJ are always open. The company regularly organizes workshops and professional events, allowing interns to gain a better understanding of the work environment, enhance their knowledge, and apply it to real projects. I learned a great deal, not only professionally but also about maintaining a professional work ethic.
 
 **5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+The company culture was a highlight, with clear, detailed regulations that made it easy for everyone to understand and follow. FCJ members were always willing to support each other cheerfully and enthusiastically, never hesitating to share experiences. This made me feel like a genuine part of a professional team.
 
 **6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+The policies and benefits for interns are excellent, from flexible working hours to organizing professional workshops and events. I not only had the chance to learn from top experts in the field but also received meaningful gifts for participating in activities.
+
+
 
 ---
 
 ### Additional Questions
 - What did you find **most satisfying** during your internship?  
+  What satisfied me most was the opportunity to learn and work in a highly professional environment, along with the dedicated support from FCJ members. Additionally, participating in company-organized events and workshops were invaluable experiences.
 - What do you think the company **should improve** for future interns?  
+  I believe the program would be more effective with a structured training roadmap from the very beginning, helping interns better understand the company's actual work and their role in projects. Having step-by-step guidance—from workflow processes to task implementation—would help interns integrate more quickly.
 - If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+  I would definitely recommend and encourage my friends to intern here. Experiencing and learning in such a comprehensively professional environment as FCJ will help everyone develop themselves to new heights.
 
 ---
 
 ### Suggestions & Expectations
 - Do you have any suggestions to improve the internship experience?  
+  I hope the process for registering to come to the office can be optimized, for example, through an online registration form where students can select specific days of the week. This would make schedule management clearer, more transparent, and help avoid situations where response  is not received in time.
 - Would you like to continue this program in the future?  
+  In the future, if given the opportunity, I would very much like to continue participating in the program and will strive to contribute and learn even more.
 - Any other comments (free sharing):

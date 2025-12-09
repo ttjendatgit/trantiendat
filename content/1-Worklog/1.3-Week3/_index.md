@@ -1,57 +1,46 @@
 ---
 title: "Week 3 Worklog"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-09-09"
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn key concepts about Amazon Lightsail.  
+* Understand the scaling process for EC2 instances.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Brainstorm ideas to enhance the project, identify additional weather data APIs, and implement them. | 22/09/2025 | 22/09/2025 | |
+| 3 | - Learn about Amazon Lightsail Workshop and related information. <br> - Practice using service features. | 23/09/2025 | 23/09/2025 | <https://000045.awsstudygroup.com/> |
+| 4 | - Explore the functionalities of Amazon Lightsail Containers. <br> - Create and test container instances. | 24/09/2025 | 24/09/2025 | <https://000046.awsstudygroup.com/> |
+| 5 | - Study EC2 Auto Scaling concepts: <br>&emsp; + Manual Scaling <br>&emsp; + Dynamic Scaling <br>&emsp; + Scheduled Scaling <br>&emsp; + Predictive Scaling | 25/09/2025 | 25/09/2025 | <https://000006.awsstudygroup.com/> |
+| 6 | - Translate blog titled "Enhancing Telecommunications Security with AWS" | 26/09/2025 | 26/09/2025 |  |
 
 
 ### Week 3 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Successfully created and configured an AWS Free Tier account.
+* Amazon Lightsail Learning
+  * Completed the Amazon Lightsail workshop and gained a solid understanding of the service's fundamental concepts and information.
+  * Practiced and became proficient in key Lightsail features: creating instances, managing storage, networking, and monitoring.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Hands-on with Amazon Lightsail Containers
+  * Successfully explored the functionalities of Amazon Lightsail Containers.
+  * Created and tested container instances, deploying a sample application onto the container service.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* EC2 Auto Scaling Study
+  * Gained in-depth knowledge of the four main EC2 Auto Scaling concepts:
+    * Manual Scaling: Manually adjusting the number of instances.
+    * Dynamic Scaling: Automatically scaling out/in based on CloudWatch metrics (CPU, Network In/Out, etc.).
+    * Scheduled Scaling: Automatically scaling based on a predefined schedule.
+    * Predictive Scaling: Forecasting demand and scaling proactively using Machine Learning.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Technical Translation
+  * Completed the translation of the blog "Enhancing Telecommunications Security with AWS" from English to Vietnamese.
+  * The translation maintains technical accuracy and preserves the original document's structure and formatting.

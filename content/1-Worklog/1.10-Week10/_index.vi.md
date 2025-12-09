@@ -1,59 +1,33 @@
 ---
 title: "Worklog Tuần 10"
-date: "`r Sys.Date()`"
-weight: 2
+date: "2025-11-16"
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tập trung vào việc cải thiện và tối ưu hiệu suất của API thời tiết.
+* Tham dự sự kiện AWS Cloud Mastery Series #1.
+* Triển khai các cải tiến để làm cho API trở nên mạnh mẽ và hiệu quả hơn.
+
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | **Triển khai Caching cho API:** <br> - Nghiên cứu và triển khai chiến lược caching sử dụng Amazon ElastiCache (Redis) hoặc caching của API Gateway. <br> - Áp dụng caching cho dữ liệu thời tiết được yêu cầu thường xuyên (ví dụ: theo thành phố) để giảm lệnh gọi API bên ngoài và độ trễ. | 10/11/2025 | 10/11/2025 | 
+| 3 | **Xử lý Lỗi & Logic Thử lại:** <br> - Cải thiện xử lý lỗi trong các hàm Lambda khi API bên ngoài gặp sự cố. <br> - Triển khai logic thử lại với exponential backoff cho các lỗi tạm thời. <br> - Xác định định dạng phản hồi lỗi rõ ràng cho API. | 11/11/2025 | 11/11/2025 | 
+| 4 | **Tối ưu Hiệu suất Lambda:** <br> - Xem xét và điều chỉnh cấu hình hàm Lambda (bộ nhớ, timeout). <br> - Triển khai Lambda layers cho các phụ thuộc được chia sẻ (ví dụ: client API thời tiết). <br> - Tối ưu mã để giảm thời gian khởi động lạnh (cold start). | 12/11/2025 | 12/11/2025 | 
+| 5 | **Giám sát & Ghi Log API:** <br> - Thiết lập Amazon CloudWatch Logs để ghi log cho hàm Lambda. <br> - Tạo CloudWatch Alarms cho tỷ lệ lỗi và độ trễ cao. <br> - Triển khai structured logging để dễ dàng gỡ lỗi. | 13/11/2025 | 13/11/2025 | CloudWatch |
+| 6 | **Bảo mật & Giới hạn Tốc độ:** <br> - Cấu hình usage plans và API keys trong API Gateway để giới hạn tốc độ cơ bản. <br> - Xem xét và siết chặt các vai trò và chính sách IAM cho hàm Lambda. <br> - Đảm bảo xử lý an toàn khóa API bên ngoài bằng AWS Secrets Manager. | 14/11/2025 | 14/11/2025 | API Gateway, IAM, Secrets Manager |
+| 7 | **Tham dự AWS Cloud Mastery Series #1:** <br> - Tham gia sự kiện để tìm hiểu về các dịch vụ và kiến trúc AWS nâng cao. <br> - Ghi chép lại những điểm chính liên quan đến dự án. | 15/11/2025 | 15/11/2025 | 
 
-
-### Kết quả đạt được tuần 10:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Thành tựu tuần 10:
+* Tăng cường độ mạnh mẽ của API với việc xử lý lỗi và cơ chế thử lại được cải thiện.
+* Tối ưu hóa hàm Lambda để có hiệu suất và khả năng quản lý tốt hơn.
+* Thiết lập giám sát và ghi log để có tầm nhìn hoạt động.
+* Cải thiện bảo mật API với giới hạn tốc độ và quản lý thông tin xác thực an toàn.
+* Thu được những hiểu biết mới từ sự kiện AWS Cloud Mastery Series.

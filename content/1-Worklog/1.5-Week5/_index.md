@@ -1,57 +1,33 @@
 ---
 title: "Week 5 Worklog"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-09-09"
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete studying the remaining AWS network architecture content on the documentation page.
+* Translate and gain a solid understanding of two important technical blog posts.
+
+
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | **Absent (Health Reason):** <br> - Severely ill with fever, health not fit for work. <br> - Parents took me back to my hometown to rest and recuperate. | 06/10/2025 | 06/10/2025      |
+| 3   | **Absent (Health Reason):** | 07/10/2025 | 07/10/2025 | 
+| 4   | **Absent (Health Reason):** | 07/10/2025 | 07/10/2025 | 
+| 5   | **Complete translation tasks:** <br> - Returned to the city and resumed work. <br> - Translated the blog post: **"Gain Compliance Insights into Your AWS Environment with Amazon Q Business", "Four ways to grant cross-account access in AWS"** . | 09/10/2025 | 09/10/2025 |
+| 6   | **Complete translation and study content:**  <br> - Completed studying all remaining content sections about VPC <br> - Compiled and documented knowledge learned about AWS network architecture. | 10/10/2025 | 10/10/2025      | <https://000003.awsstudygroup.com/vi/> |
 
 
 ### Week 5 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Successfully completed translation tasks:** Accurately and fully translated two important technical blog posts from English to Vietnamese:
+    * **"Gain Compliance Insights into Your AWS Environment with Amazon Q Business"**: Understood how to integrate AWS Config and Amazon Q Business for natural language compliance analysis.
+    * **"Four ways to grant cross-account access in AWS"**: Mastered the four methods of granting cross-account access and the security and availability trade-offs of each method.
+* **Completed AWS network architecture curriculum:** Studied all remaining content on the documentation page, including advanced topics on VPC, hybrid connectivity, and best-practice architectural patterns.

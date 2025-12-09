@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 12"
-date: "`r Sys.Date()`"
-weight: 2
+date: "2025-09-09"
+weight: 12
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
@@ -11,48 +11,24 @@ pre: " <b> 1.12 </b> "
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Cộng tác với nhóm để hoàn thành các giai đoạn cuối của dự án.
+* Ghi lại tất cả các sự kiện đã tham gia trong thời gian thực tập.
+* Xem xét và hoàn thiện tài liệu worklog.
+* Tham dự AWS Cloud Mastery Series #3.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | **Công việc Dự án Cuối cùng với Nhóm:** <br> - Thực hiện kiểm thử end-to-end cho tất cả các tính năng. <br> - Sửa lỗi và tối ưu hiệu suất dựa trên phản hồi kiểm thử. | 24/11/2025 | 24/11/2025 | 
+| 3 | **Công việc Dự án Cuối cùng với Nhóm:** <br> - Chuẩn bị tài liệu dự án cuối cùng  | 25/11/2025 | 25/11/2025 | 
+| 4 | **Công việc Dự án Cuối cùng với Nhóm:** <br> - Review code cuối cùng và merge vào nhánh main. <br> - Chuẩn bị tài liệu thuyết trình cuối cùng. | 26/11/2025 | 26/11/2025 |
+| 5 | **Tài liệu hóa Sự kiện:** <br> - Viết tóm tắt chi tiết về tất cả các sự kiện và workshop đã tham dự. <br> - Ghi lại những bài học chính và điểm rút ra từ mỗi sự kiện. <br> - Tổ chức chứng chỉ và tài liệu sự kiện. | 27/11/2025 | 27/11/2025 | Ghi chú & Tài liệu Sự kiện |
+| 6 | **Xem xét & Hoàn thiện Worklog:** <br> - Xem xét và chỉnh sửa tất cả các mục worklog hàng tuần. <br> - Đảm bảo tính nhất quán và độ chính xác trên tất cả tài liệu. <br> - Thêm bất kỳ thành tựu hoặc suy ngẫm nào còn thiếu. | 28/11/2025 | 28/11/2025 | File Worklog |
+| 7 | **Tham dự AWS Cloud Mastery Series #3:** <br> - Tham gia buổi cuối cùng của chuỗi AWS Cloud Mastery. <br> - Tìm hiểu về kiến trúc AWS nâng cao và thực hành tốt nhất. <br> - Kết nối với các chuyên gia đám mây và chia sẻ kinh nghiệm dự án. | 29/11/2025 | 29/11/2025 | Tài liệu Sự kiện |
 
-
-### Kết quả đạt được tuần 12:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+### Thành tựu tuần 12:
+* Hoàn thành phát triển, kiểm thử và tài liệu hóa dự án cuối cùng cùng với nhóm.
+* Ghi lại những bài học từ tất cả các sự kiện đã tham dự.
+* Hoàn thiện worklog đầy đủ 12 tuần.
+* Tham dự buổi cuối cùng của chuỗi AWS Cloud Mastery Series.
 

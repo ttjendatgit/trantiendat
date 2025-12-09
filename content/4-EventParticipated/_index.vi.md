@@ -1,46 +1,45 @@
 ---
 title: "Các events đã tham gia"
-date: "`r Sys.Date()`"
+date: 2025-09-11
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong thời gian thực tập, tôi có cơ hội tham gia bốn sự kiện chuyên môn. Mỗi sự kiện đều mang lại những góc nhìn hữu ích, kiến thức thực tiễn và trải nghiệm giá trị, góp phần vào sự phát triển học thuật và nghề nghiệp của tôi.
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+### [Sự kiện 1](4.1-Event1/)
 
+ **Tên sự kiện:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+ **Thời gian:** 09:00, ngày 18 tháng 9 năm 2025
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+ **Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 đường Hải Triều, phường Sài Gòn, TP. Hồ Chí Minh
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+ **Vai trò:** Người tham dự
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+ **Hoạt động chính:**
+ Tham gia các buổi thảo luận xoay quanh chuyển đổi công nghệ trong kỷ nguyên Công nghiệp 4.0, đặc biệt nhấn mạnh vai trò ngày càng mở rộng của trí tuệ nhân tạo trong thúc đẩy đổi mới số và nâng cao năng suất tổ chức.
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+ **Bài học rút ra:**
+ Việc tích hợp phương pháp AI-Driven Lifecycle (AI-DLC) vào quy trình dự án giúp nâng cao hiệu quả và khả năng ra quyết định. Bên cạnh đó, Generative AI là công cụ mạnh mẽ hỗ trợ nghiên cứu, tiếp thu kiến thức và phát triển kỹ năng liên tục.
 
 
 
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+### [Sự kiện 2](4.2-Event2/)
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+ **Tên sự kiện:** AWS Cloud Mastery Series #2 – DevOps on AWS
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+ **Thời gian:** 8:30, ngày 17 tháng 11 năm 2025
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+ **Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 đường Hải Triều, phường Sài Gòn, TP. Hồ Chí Minh
+
+ **Vai trò:** Người tham dự
+
+ **Hoạt động chính:**
+ Tìm hiểu các kiến thức nền tảng và nâng cao trong DevOps, bao gồm tự động hóa CI/CD, Infrastructure as Code (IaC) với CloudFormation và AWS CDK, triển khai container bằng ECS, EKS và App Runner, và các phương pháp quan sát hệ thống sử dụng CloudWatch.
+
+ **Bài học rút ra:**
+ DevOps hiện đại đề cao sự hợp tác, cải tiến liên tục và khả năng điều phối hạ tầng đáng tin cậy. Việc áp dụng IaC và các dịch vụ container của AWS giúp xây dựng hệ thống có khả năng tái tạo, mở rộng và ổn định cao; trong khi các công cụ quan sát giúp chủ động giám sát và đạt hiệu quả vận hành tốt hơn.
+
 

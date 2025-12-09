@@ -1,59 +1,30 @@
 ---
 title: "Worklog Tuần 9"
-date: "`r Sys.Date()`"
-weight: 1
+date: "2025-09-09"
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nghiên cứu và xác định các dịch vụ AWS phù hợp để xây dựng API thời tiết.
+* Thiết kế và hoàn thiện cấu trúc API hoàn chỉnh sử dụng đặc tả Swagger/OpenAPI.
+* Cộng tác với nhóm Frontend để thống nhất thiết kế API.
+* Quản lý phiên bản cho đặc tả API bằng Git.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | **Nghiên cứu Dịch vụ AWS:** <br> - Nghiên cứu AWS API Gateway để quản lý và tạo API. <br> - Xác định AWS Lambda làm tầng điện toán serverless. <br> - Xem xét các nhà cung cấp dữ liệu thời tiết bên ngoài và phương pháp tích hợp API. | 03/11/2025 | 03/11/2025 | Tài liệu AWS |
+| 3 | **Xác định Endpoint API & Luồng Dữ liệu:** <br> - Xác định 4 endpoint API cốt lõi. <br> - Thiết kế lược đồ request/response cho mỗi endpoint. | 04/11/2025 | 04/11/2025 | Kế hoạch dự án |
+| 4 | **Mô hình Dữ liệu & Tích hợp Bên ngoài:** <br> - Xác định mô hình dữ liệu cho phản hồi thời tiết (nhiệt độ, độ ẩm, điều kiện, v.v.). <br> - Xác định mô hình dữ liệu cho phản hồi dự báo 5 ngày. <br> - Nghiên cứu và chọn một API thời tiết miễn phí (ví dụ: OpenWeatherMap). <br> - Lập kế hoạch logic tích hợp trong hàm Lambda. | 05/11/2025 | 05/11/2025 | 
+| 5 | **Bản nháp Đặc tả Swagger/OpenAPI:** <br> - Bắt đầu viết file YAML Swagger (OpenAPI 3.0). <br> - Xác định đối tượng `paths` với tất cả 4 endpoint. <br> - Chỉ định các tham số (path, query) và ví dụ request. <br> - Xác định lược đồ và ví dụ phản hồi cho các trường hợp thành công/lỗi. | 06/11/2025 | 06/11/2025 |
+| 6 | **Cộng tác & Kiểm soát Phiên bản:** <br> - Cộng tác với nhóm Frontend để xem xét và hoàn thiện các endpoint API và mô hình dữ liệu. <br> - Điều chỉnh đặc tả Swagger dựa trên phản hồi. | 07/11/2025 | 07/11/2025 | 
 
-
-### Kết quả đạt được tuần 9:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Thành tựu tuần 9:
+* Đã nghiên cứu và chọn AWS API Gateway và Lambda làm nền tảng cho API thời tiết.
+* Đã thiết kế và lập tài liệu cho bốn endpoint API cốt lõi để truy xuất dữ liệu thời tiết.
+* Đã cộng tác thành công với nhóm Frontend để thống nhất thiết kế API.
+* Đã hoàn thiện và kiểm soát phiên bản đặc tả API bằng Git.
