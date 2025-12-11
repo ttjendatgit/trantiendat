@@ -7,6 +7,9 @@ pre: " <b> 2. </b> "
 ---
 
 
+## Proposal document
+[Doc](https://docs.google.com/document/d/1UNjqnkYfqD67wq76dyOq1YnkjWGnb3eSPsucPVyzihc/edit?usp=sharing)
+
 # ONLINE PLATFORM FOR TRACKING AND FORECASTING HURRICANE TRAJECTORY
 ## Geodesic-Aware Deep Learning for Hurricane Trajectory Prediction: A Physics-Informed and Augmentation-Driven Approach
 
@@ -405,3 +408,6 @@ The estimated monthly costs for running the hurricane prediction platform on AWS
 * Centralized hurricane data for research and analysis.
 * Framework reusable for other geospatial prediction tasks.
 * Low monthly operational cost (< $20/month).
+
+
+

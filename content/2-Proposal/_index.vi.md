@@ -6,6 +6,10 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
+
+## Proposal document
+[Doc](https://docs.google.com/document/d/1UNjqnkYfqD67wq76dyOq1YnkjWGnb3eSPsucPVyzihc/edit?usp=sharing)
+
 # NỀN TẢNG TRỰC TUYẾN ĐỂ THEO DÕI VÀ DỰ BÁO QUỸ ĐẠO BÃO 
 
 ## Kỹ thuật tự nhận thức trắc địa (Geodesic-Aware Deep Learning) cho dự đoán hướng di chuyển chính xác: Một phương pháp tiếp cận dựa trên kêt hợp "mô phỏng vật lý" và "tăng cường dữ liệu"
